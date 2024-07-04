@@ -1,0 +1,112 @@
+@font-face {
+    font-family: "Poppins";
+    src: url("font/Poppinsextrabold.ttf") format("truetype");
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("font/Poppinspoppins-boldsemibold.ttf") format("truetype");
+    font-weight: 600;
+}
+
+*,
+*:before,
+*:after {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+img {
+	vertical-align: top;
+}
+
+h1, h2 {
+	font-weight: inherit;
+	font-size: inherit;
+	font-family: "Poppins";
+    color: #151519;
+}
+
+html,
+body {
+	height: 100%;
+	font-family: "Poppins";
+}
+
+.banner{
+    width: 320px;
+    height: 427px;
+    background-color: #FFEEC1;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner__subheader{
+    font-weight: 600;
+    font-size: 20.53px;
+    line-height: 102.7%;
+    text-align: center;
+    letter-spacing: 0.1px;
+    padding-bottom: 5.04px;
+    z-index: 100;
+    position: absolute;
+    /* top: 51.30px; */
+    top: -100px;
+    left: 119.65px;
+    transform: scale(0.7);
+    transition: none;
+}
+
+.banner__header{
+    font-weight: 800;
+    font-size: 27.92px;
+    line-height: 102.7%;
+    text-align: center;
+    z-index: 200;
+    position: absolute;
+    top: 77.12px;
+    /* left: 59.02px; */
+    left: -300px;
+}
+
+.banner__image-1{
+    position: absolute;
+    left: -77.15px;
+    top: 129.19px;
+    width: 273.32px;
+    height: 191.78px;
+    transform: rotate(-12.76deg);
+    z-index: 3;
+}
+
+.banner__image-2{
+    position: absolute;
+    left: 107.73px;
+    top: 142.56px;
+    width: 272.32px;
+    height: 190.78px;
+    transform: rotate(6.43deg);
+    z-index: 4;
+}
+
+.banner__image-3{
+    position: absolute;
+    z-index: 2;
+    left: 200.69px;
+    top: 278.9px;
+    width: 185.05px;
+    height: 157.24px;
+}
+
+.banner__image-4{
+    position: absolute;
+    z-index: 2;
+    left: -51px;
+    top: 226px;
+    width: 308px;
+    height: 326px;
+    z-index: 1;
+}
